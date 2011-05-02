@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# But don't ignore
+!.bashrc
+!.bashrc.git
+!.bashrc.colors
+!.bash_profile
+!.gitignore
+!.vimrc
