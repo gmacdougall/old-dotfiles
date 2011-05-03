@@ -1,5 +1,9 @@
-source /etc/bash_completion.d/git
-source .bashrc.colors
+if [ -e ~/.bashrc.completion-git ]; then
+	source ~/.bashrc.completion-git
+else
+	source /etc/bash_completion.d/git
+fi
+source ~/.bashrc.colors
 
 export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWSTASHSTATE=true
