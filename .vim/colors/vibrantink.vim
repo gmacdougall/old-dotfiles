@@ -66,5 +66,6 @@ else
     highlight Search ctermbg=White 
     highlight CursorLine cterm=NONE ctermbg=235
 endif
-hi StatusLineNC	  term=bold,reverse  cterm=bold ctermfg=white ctermbg=67
+hi ErrorMsg       term=bold,reverse  ctermbg=52
+hi StatusLineNC   term=bold,reverse  cterm=bold ctermfg=white ctermbg=67
 hi StatusLine     term=reverse	ctermfg=darkblue ctermbg=white

@@ -21,7 +21,8 @@ set statusline +=\ %{fugitive#statusline()}
 set statusline +=[%5l%*         "current line
 set statusline +=/%L%*]         "total lines
 set statusline +=%4c\ %*        "column number
-set makeprg=mvn
+
+match errorMsg /[^\t] \zs\t\+/
 
 colo vibrantink
 
