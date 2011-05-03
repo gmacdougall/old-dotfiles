@@ -7,7 +7,6 @@ set bs=2                        "allow backspace in insert mode
 syntax enable                   "enable syntax highlighting
 set ruler                       "use the ruler thigy
 set showmatch                   "blink matching parentheses
-set nobackup                    "don't do the ~ backups
 set ignorecase                  "do case insensitive searching
 set directory=.                 "set directory for locatinf swap files    
 set hls                         "use highlight search
@@ -21,6 +20,8 @@ set statusline +=\ %{fugitive#statusline()}
 set statusline +=[%5l%*         "current line
 set statusline +=/%L%*]         "total lines
 set statusline +=%4c\ %*        "column number
+set backupdir=~/.vim/backup/
+set directory=~/.vim/backup/
 
 match errorMsg /[^\t] \zs\t\+/
 
