@@ -12,10 +12,12 @@ set ignorecase                  "do case insensitive searching
 set directory=.                 "set directory for locatinf swap files    
 set hls                         "use highlight search
 set wmh=0                       "minimum windows height for splits
-set laststatus=2
+set laststatus=2                "status window should always be shown
 set statusline=
 set statusline +=\ %<%t%*       "full path
-set statusline +=\ %m%*%=       "modified flag
+set statusline +=\ %m%*         "modified flag
+set statusline +=%=             "align remaining ot the right
+set statusline +=\ %{fugitive#statusline()}
 set statusline +=[%5l%*         "current line
 set statusline +=/%L%*]         "total lines
 set statusline +=%4c\ %*        "column number
