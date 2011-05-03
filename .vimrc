@@ -25,6 +25,7 @@ set statusline +=%4c\ %*        "column number
 match errorMsg /[^\t] \zs\t\+/
 
 colo vibrantink
+compiler maven2
 
 "variable tab completion
 function InsertTabWrapper() 
@@ -41,7 +42,8 @@ inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 map <silent> <C-J> <C-W>j<C-W>_ 
 map <silent> <C-K> <C-W>k<C-W>_ 
 map <silent> <F3> :let @/ = ""<CR>
-"map <silent> <F5> :make test<CR>
+map <silent> <F5> :make test<CR>
+map <silent> <F6> :make clean test<CR>
 
 " get/set macro 0"sy$
 "^yypkwxelDbywA() { return $this->pA; }^wigetl~j^wxelDbywA($pA) { $this->pA = $pA; }^wisetl~jkk^cwpublic functionj^cwpublic functionj^
