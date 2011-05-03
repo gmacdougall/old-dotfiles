@@ -1,5 +1,6 @@
 # Ignore everything
-*
+/*
+/*/
 
 # But don't ignore
 !.bashrc
@@ -7,4 +8,5 @@
 !.bashrc.colors
 !.bash_profile
 !.gitignore
+!.vim/
 !.vimrc
