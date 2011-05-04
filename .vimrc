@@ -40,6 +40,8 @@ inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 "This maps ctrl+j and ctrl+k to moving between :split windows
 map <silent> <C-J> <C-W>j<C-W>_
 map <silent> <C-K> <C-W>k<C-W>_
+map <silent> <C-H> <C-W>h
+map <silent> <C-L> <C-W>l
 map <silent> <C-G>b :Gblame<CR>
 map <silent> <C-G>c :Gcommit<CR>
 map <silent> <C-G>l :gitv<CR>
