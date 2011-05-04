@@ -8,7 +8,7 @@ syntax enable                   "enable syntax highlighting
 set ruler                       "use the ruler thigy
 set showmatch                   "blink matching parentheses
 set ignorecase                  "do case insensitive searching
-set directory=.                 "set directory for locatinf swap files    
+set directory=.                 "set directory for locating swap files
 set hls                         "use highlight search
 set wmh=0                       "minimum windows height for splits
 set laststatus=2                "status window should always be shown
@@ -23,25 +23,23 @@ set statusline +=%4c\ %*        "column number
 set backupdir=~/.vim/backup/
 set directory=~/.vim/backup/
 
-match errorMsg /[^\t] \zs\t\+/
-
 colo vibrantink
 compiler maven2
 
 "variable tab completion
-function InsertTabWrapper() 
-	let col = col('.') - 1 
-	if !col || getline('.')[col - 1] !~ '\k' 
-		return "\<tab>" 
-	else 
-		return "\<c-p>" 
-	endif 
-endfunction 
+function InsertTabWrapper()
+	let col = col('.') - 1
+	if !col || getline('.')[col - 1] !~ '\k'
+		return "\<tab>"
+	else
+		return "\<c-p>"
+	endif
+endfunction
 inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 
 "This maps ctrl+j and ctrl+k to moving between :split windows
-map <silent> <C-J> <C-W>j<C-W>_ 
-map <silent> <C-K> <C-W>k<C-W>_ 
+map <silent> <C-J> <C-W>j<C-W>_
+map <silent> <C-K> <C-W>k<C-W>_
 map <silent> <C-G>b :Gblame<CR>
 map <silent> <C-G>c :Gcommit<CR>
 map <silent> <C-G>l :gitv<CR>

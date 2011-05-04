@@ -7,3 +7,6 @@
 [submodule ".submodules/vim-fugitive"]
 	path = .submodules/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule ".submodules/vim-trailing-whitespace"]
+	path = .submodules/vim-trailing-whitespace
+	url = https://github.com/bronson/vim-trailing-whitespace.git
