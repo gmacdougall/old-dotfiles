@@ -13,3 +13,4 @@
 !.submodules/
 !.vim/
 !.vimrc
+!.vim/backup/.empty
