@@ -69,6 +69,8 @@ else
     highlight javaParen ctermfg=202
     highlight javaParen1 ctermfg=204
     highlight javaParen2 ctermfg=206
+		highlight phpIdentifier ctermfg=148
+		highlight Delimiter ctermfg=202
 endif
 hi ErrorMsg       term=bold,reverse  ctermbg=52
 hi StatusLineNC   term=bold,reverse  cterm=bold ctermfg=white ctermbg=67
