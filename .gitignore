@@ -1,6 +1,7 @@
 # Ignore everything
 /*
 /*/
+/.vim/backup/*
 
 # But don't ignore
 !.bashrc
@@ -9,5 +10,6 @@
 !.bash_profile
 !.dir_colors
 !.gitignore
+!.submodules/
 !.vim/
 !.vimrc
