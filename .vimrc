@@ -42,10 +42,10 @@ map <silent> <C-J> <C-W>j<C-W>_
 map <silent> <C-K> <C-W>k<C-W>_
 map <silent> <C-H> <C-W>h
 map <silent> <C-L> <C-W>l
-map <silent> <C-G>b :Gblame<CR>
-map <silent> <C-G>c :Gcommit<CR>
-map <silent> <C-G>l :gitv<CR>
-map <silent> <C-G>s :Gstatus<CR>
+map <silent> gb :Gblame<CR>
+map <silent> gc :Gcommit<CR>
+map <silent> gl :gitv<CR>
+map <silent> gs :Gstatus<CR>
 map <silent> <F3> :let @/ = ""<CR>
 map <silent> <F5> :make test<CR>
 map <silent> <F6> :make clean test<CR>
