@@ -10,6 +10,7 @@
 !.bash_profile
 !.dir_colors
 !.gitignore
+!.screenrc
 !.submodules/
 !.vim/
 !.vimrc
