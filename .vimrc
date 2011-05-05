@@ -44,6 +44,7 @@ map <silent> <C-H> <C-W>h
 map <silent> <C-L> <C-W>l
 map <silent> gb :Gblame<CR>
 map <silent> gc :Gcommit<CR>
+map <silent> gC :Gcommit -a<CR>
 map <silent> gl :gitv<CR>
 map <silent> gs :Gstatus<CR>
 map <silent> <F3> :let @/ = ""<CR>
