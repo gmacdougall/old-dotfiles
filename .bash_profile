@@ -6,7 +6,7 @@ else
     unset PROMPT_COMMAND
 fi
 
-export TERM='putty-256color'
+export TERM='xterm-256color'
 
 # Get the aliases and functions
 if [ -f ~/.bashrc ]; then
