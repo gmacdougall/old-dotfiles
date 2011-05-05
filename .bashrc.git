@@ -12,7 +12,7 @@ export GIT_PS1_SHOWUPSTREAM=verbose
 
 function prompt_func() {
     previous_return_value=$?;
-    prompt="${GREEN}\u@\h${BLUE}[${RED}\w${LIGHT_CYAN}$(__git_ps1)${BLUE}]${COLOR_NONE}"
+    prompt="${GREEN}\u@\h${LIGHT_BLUE}[${RED}\w${LIGHT_CYAN}$(__git_ps1)${LIGHT_BLUE}]${COLOR_NONE}"
     if test $previous_return_value -eq 0
     then
         PS1="${prompt}\$ "
