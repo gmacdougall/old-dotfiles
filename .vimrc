@@ -26,20 +26,10 @@ set statusline +=/%L%*]         "total lines
 set statusline +=%4c\ %*        "column number
 set backupdir=~/.vim/backup/
 set directory=~/.vim/backup/
+set nofoldenable
 
 colo vibrantink
 compiler maven2
-
-"variable tab completion
-function InsertTabWrapper()
-	let col = col('.') - 1
-	if !col || getline('.')[col - 1] !~ '\k'
-		return "\<tab>"
-	else
-		return "\<c-p>"
-	endif
-endfunction
-inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 
 "This maps ctrl+j and ctrl+k to moving between :split windows
 map <silent> <C-J> <C-W>j<C-W>_
@@ -57,6 +47,10 @@ map <silent> <F6> :make clean test<CR>
 map <silent> <F9> :dp<CR>
 map <silent> <F11> :diffget //2<CR> :diffupdate<CR>
 map <silent> <F12> :diffget //3<CR> :diffupdate<CR>
+
+" Plugin Config
+" Supertab {
+" }
 
 " Syntax highlighting help
 map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
