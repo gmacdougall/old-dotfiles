@@ -19,3 +19,9 @@
 [submodule ".vim/bundle/vim-twig"]
 	path = .vim/bundle/vim-twig
 	url = https://github.com/beyondwords/vim-twig.git
+[submodule ".vim/bundle/php.vim-nicholson"]
+	path = .vim/bundle/php.vim-nicholson
+	url = https://github.com/vim-scripts/php.vim--Nicholson.git
+[submodule ".vim/bundle/php.vim-garvin"]
+	path = .vim/bundle/php.vim-garvin
+	url = https://github.com/vim-scripts/php.vim--Garvin.git
