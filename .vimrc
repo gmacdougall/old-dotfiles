@@ -1,3 +1,7 @@
+filetype off
+silent! call pathogen#infect()
+filetype plugin indent on
+
 set nocp                        "vim no-compativility mode
 set ts=2                        "tab stop 2
 set shiftwidth=2                "tab shift width 2

@@ -1,1 +1,0 @@
-../../.submodules/vim-trailing-whitespace/plugin/trailing-whitespace.vim

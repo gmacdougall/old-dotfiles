@@ -1,1 +1,0 @@
-../../.submodules/vim-git/ftdetect/git.vim
