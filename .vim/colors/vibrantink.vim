@@ -54,7 +54,7 @@ else
     highlight Comment ctermfg=98
     highlight Type ctermfg=36
     highlight rubySymbol ctermfg=66
-    highlight Identifier ctermfg=White
+    highlight Identifier ctermfg=80
     highlight rubyStringDelimiter ctermfg=82
     highlight rubyInterpolation ctermfg=White
     highlight rubyPseudoVariable ctermfg=66
@@ -69,7 +69,6 @@ else
     highlight javaParen ctermfg=202
     highlight javaParen1 ctermfg=204
     highlight javaParen2 ctermfg=206
-		highlight phpIdentifier ctermfg=148
 		highlight Delimiter ctermfg=202
 		highlight xmlEndTag ctermfg=138
 endif
