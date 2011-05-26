@@ -50,6 +50,10 @@ map <silent> gs :Gstatus<CR>
 map <silent> <F3> :let @/ = ""<CR>
 map <silent> <F5> :make test<CR>
 map <silent> <F6> :make clean test<CR>
+map <silent> <F9> :dp<CR>
+map <silent> <F11> :diffget //2<CR> :diffupdate<CR>
+map <silent> <F12> :diffget //3<CR> :diffupdate<CR>
+
 " Syntax highlighting help
 map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
 \ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
