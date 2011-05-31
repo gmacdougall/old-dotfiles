@@ -42,6 +42,7 @@ map <silent> gc :Gcommit<CR>
 map <silent> gC :Gcommit -a<CR>
 map <silent> gl :gitv<CR>
 map <silent> gs :Gstatus<CR>
+map <silent> <F2> :NERDTreeToggle<CR>
 map <silent> <F3> :let @/ = ""<CR>
 map <silent> <F5> :make test<CR>
 map <silent> <F6> :make clean test<CR>
@@ -60,3 +61,4 @@ map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans
 
 " get/set macro 0"sy$
 "^yypkwxelDbywA() { return $this->pA; }^wigetl~j^wxelDbywA($pA) { $this->pA = $pA; }^wisetl~jkk^cwpublic functionj^cwpublic functionj^
+"
