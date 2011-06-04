@@ -1,5 +1,6 @@
 filetype off
 silent! call pathogen#infect()
+silent! call pathogen#helptags()
 filetype plugin indent on
 
 set nocp                        "vim no-compativility mode
