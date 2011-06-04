@@ -28,3 +28,4 @@ refresh git://github.com/tpope/vim-surround.git                 vim-surround
 refresh git://github.com/scrooloose/nerdtree.git                nerdtree
 refresh git://github.com/beyondwords/vim-twig.git               vim-twig
 refresh git://github.com/cakebaker/scss-syntax.vim.git          scss-syntax
+refresh git://github.com/kchmck/vim-coffee-script.git           vim-coffee-script
