@@ -2,6 +2,7 @@
 /*
 /*/
 /.vim/backup/*
+/.vim/bundle/*
 
 # But don't ignore
 !.bashrc
@@ -15,4 +16,5 @@
 !.vim/
 !.vimrc
 !.vim/backup/.empty
+!.vim/bundle/refresh
 !README

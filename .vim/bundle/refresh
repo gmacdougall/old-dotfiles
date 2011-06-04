@@ -1,0 +1,30 @@
+#!/bin/bash
+
+refresh() {
+  local url="$1"
+  local dir="$2"
+
+  rm -rf $dir
+  git clone $url $dir --depth=1
+  rm -rf $dir/.git
+
+  if [ -f "$dir/.gitignore" ]; then
+    rm "$dir/.gitignore"
+  fi
+}
+
+refresh git://github.com/gregsexton/gitv.git                    gitv
+refresh git://github.com/bronson/vim-trailing-whitespace.git    vim-trailing-whitespace
+refresh git://github.com/ervandew/supertab.git                  supertab
+refresh git://github.com/vim-scripts/php.vim--Nicholson.git     php.vim-nicholson
+refresh git://github.com/vim-scripts/php.vim--Garvin.git        php.vim-garvin
+
+refresh git://github.com/tpope/vim-git.git                      vim-git
+refresh git://github.com/tpope/vim-fugitive.git                 vim-fugitive
+refresh git://github.com/tpope/vim-pathogen.git                 vim-pathogen
+refresh git://github.com/tpope/vim-repeat.git                   vim-repeat
+refresh git://github.com/tpope/vim-surround.git                 vim-surround
+
+refresh git://github.com/scrooloose/nerdtree.git                nerdtree
+refresh git://github.com/beyondwords/vim-twig.git               vim-twig
+refresh git://github.com/cakebaker/scss-syntax.vim.git          scss-syntax

@@ -1,3 +1,4 @@
 Instructions
 
-git clone --recursive git://github.com/gmacdougall/dotfiles.git
+git clone git://github.com/gmacdougall/dotfiles.git
+./vim/bundle/refresh
