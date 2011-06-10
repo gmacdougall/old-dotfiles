@@ -6,7 +6,6 @@ filetype plugin indent on
 set nocp                        "vim no-compativility mode
 set ts=4                        "tab stop 4
 set shiftwidth=4                "tab shift width 4
-set expandtab
 set autoindent                  "use auto indenting
 set smartindent                 "use smart indenting
 set bs=2                        "allow backspace in insert mode
@@ -53,8 +52,7 @@ map <silent> <F11> :diffget //2<CR> :diffupdate<CR>
 map <silent> <F12> :diffget //3<CR> :diffupdate<CR>
 
 " Plugin Config
-" Supertab {
-" }
+let g:local_vimrc=".vimrc.local"
 
 " Syntax highlighting help
 map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
