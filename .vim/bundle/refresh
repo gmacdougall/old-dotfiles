@@ -30,3 +30,4 @@ refresh git://github.com/beyondwords/vim-twig.git               vim-twig
 refresh git://github.com/cakebaker/scss-syntax.vim.git          scss-syntax
 refresh git://github.com/kchmck/vim-coffee-script.git           vim-coffee-script
 refresh git://github.com/intuited/lh-vim-lib.git                lh-vim-lib
+refresh git://github.com/ervandew/relative.git                  relative
