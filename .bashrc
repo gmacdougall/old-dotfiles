@@ -14,3 +14,6 @@ fi
 
 # Source additional files
 source ~/.bashrc.git
+if [ -f ~/.bashrc.local ]; then
+	. ~/.bashrc.local
+fi
