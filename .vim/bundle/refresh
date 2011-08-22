@@ -19,6 +19,7 @@ refresh git://github.com/ervandew/supertab.git                  supertab
 refresh git://github.com/vim-scripts/php.vim--Nicholson.git     php.vim-nicholson
 refresh git://github.com/vim-scripts/php.vim--Garvin.git        php.vim-garvin
 
+refresh git://github.com/tpope/vim-cucumber.git                 vim-cucumber
 refresh git://github.com/tpope/vim-git.git                      vim-git
 refresh git://github.com/tpope/vim-fugitive.git                 vim-fugitive
 refresh git://github.com/tpope/vim-pathogen.git                 vim-pathogen
