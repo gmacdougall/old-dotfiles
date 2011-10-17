@@ -32,6 +32,7 @@ set nofoldenable
 colo vibrantink
 compiler maven2
 au BufRead,BufNewFile *.twig set syntax=htmljinja
+autocmd BufNewFile,BufRead *.json set ft=javascript
 
 "This maps ctrl+j and ctrl+k to moving between :split windows
 map <silent> <C-J> <C-W>j<C-W>_
