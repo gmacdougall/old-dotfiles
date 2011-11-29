@@ -33,3 +33,4 @@ refresh git://github.com/kchmck/vim-coffee-script.git           vim-coffee-scrip
 refresh git://github.com/intuited/lh-vim-lib.git                lh-vim-lib
 refresh git://github.com/ervandew/relative.git                  relative
 refresh git://github.com/timcharper/textile.vim.git             textile
+refresh git://github.com/vim-scripts/PDV-revised.git            phpdoc
