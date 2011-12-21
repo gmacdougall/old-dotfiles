@@ -11,6 +11,7 @@
 !.bash_profile
 !.dir_colors
 !.gitignore
+!.git-template
 !.screenrc
 !.submodules/
 !.vim/
