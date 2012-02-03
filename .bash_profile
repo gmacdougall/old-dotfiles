@@ -45,3 +45,5 @@ function rmb {
     fi
   fi
 }
+
+[[ -s "/home/gmacdougall/.rvm/scripts/rvm" ]] && source "/home/gmacdougall/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
