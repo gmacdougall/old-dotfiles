@@ -17,3 +17,5 @@ source ~/.bashrc.git
 if [ -f ~/.bashrc.local ]; then
 	. ~/.bashrc.local
 fi
+
+[[ -s ~/.rvm/scripts/rvm ]] && source ~/.rvm/scripts/rvm # Load RVM into a shell session *as a function*
