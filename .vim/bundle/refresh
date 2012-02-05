@@ -27,6 +27,7 @@ refresh git://github.com/tpope/vim-ragtag.git                   vim-ragtag
 refresh git://github.com/tpope/vim-repeat.git                   vim-repeat
 refresh git://github.com/tpope/vim-surround.git                 vim-surround
 refresh git://github.com/tpope/vim-haml.git                     vim-haml
+refresh git://github.com/tpope/vim-ruby.git                     vim-haml
 
 refresh git://github.com/scrooloose/nerdtree.git                nerdtree
 refresh git://github.com/beyondwords/vim-twig.git               vim-twig
