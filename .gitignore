@@ -9,6 +9,7 @@
 !.bashrc.git
 !.bashrc.colors
 !.bash_profile
+!.bundler-exec.sh
 !.dir_colors
 !.gitignore
 !.git-template

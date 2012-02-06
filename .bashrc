@@ -19,3 +19,6 @@ if [ -f ~/.bashrc.local ]; then
 fi
 
 [[ -s ~/.rvm/scripts/rvm ]] && source ~/.rvm/scripts/rvm # Load RVM into a shell session *as a function*
+[ -f ~/.bundler-exec.sh ] && source ~/.bundler-exec.sh
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
