@@ -11,8 +11,10 @@
 !.bash_profile
 !.bundler-exec.sh
 !.dir_colors
+!.gemrc
 !.gitignore
 !.git-template
+!.rvmrc
 !.screenrc
 !.submodules/
 !.vim/
