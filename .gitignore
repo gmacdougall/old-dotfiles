@@ -22,3 +22,6 @@
 !.vim/backup/.empty
 !.vim/bundle/refresh
 !README
+
+# But do ignore this!
+/.vim/.netrwhist
