@@ -52,6 +52,7 @@ map <silent> <F12> :diffget //3<CR> :diffupdate<CR>
 
 " Plugin Config
 let g:local_vimrc=".vimrc.local"
+let NERDTreeDirArrows=0
 
 " Syntax highlighting help
 map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
