@@ -10,9 +10,14 @@ export GIT_PS1_SHOWSTASHSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
 export GIT_PS1_SHOWUPSTREAM=verbose
 
+if [ -z "$USER_COLOR" ]
+then
+	USER_COLOR="$GREEN"
+fi
+
 function prompt_func() {
     previous_return_value=$?;
-    prompt="${GREEN}\u@\h${LIGHT_BLUE}[${RED}\w${LIGHT_CYAN}$(__git_ps1)${LIGHT_BLUE}]${COLOR_NONE}"
+    prompt="${USER_COLOR}\u@\h${LIGHT_BLUE}[${RED}\w${LIGHT_CYAN}$(__git_ps1)${LIGHT_BLUE}]${COLOR_NONE}"
     if test $previous_return_value -eq 0
     then
         PS1="\n${prompt}\n\$ "
