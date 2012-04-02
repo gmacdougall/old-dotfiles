@@ -45,3 +45,5 @@ function rmb {
     fi
   fi
 }
+
+keychain ~/.ssh/id_rsa

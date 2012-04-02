@@ -10,6 +10,10 @@ export GIT_PS1_SHOWSTASHSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
 export GIT_PS1_SHOWUPSTREAM=verbose
 
+if [ -f ~/.bashrc.local ]; then
+	. ~/.bashrc.local
+fi
+
 if [ -z "$USER_COLOR" ]
 then
 	USER_COLOR="$GREEN"
