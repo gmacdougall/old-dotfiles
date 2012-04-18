@@ -19,6 +19,9 @@ PATH=$PATH:$HOME/bin
 
 export PATH
 
+keychain id_rsa
+. ~/.keychain/`uname -n`-sh
+
 function rmb {
   current_branch=$(git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
   if [ "$current_branch" != "master" ]; then
@@ -45,5 +48,3 @@ function rmb {
     fi
   fi
 }
-
-keychain ~/.ssh/id_rsa
