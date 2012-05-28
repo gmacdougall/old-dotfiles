@@ -40,3 +40,4 @@ refresh git://github.com/vim-scripts/PDV-revised.git            phpdoc
 refresh git://github.com/int3/vim-extradite.git                 vim-extradite
 refresh git://github.com/vim-ruby/vim-ruby.git                  vim-ruby
 refresh git://github.com/tobiassvn/vim-gemfile.git              vim-gemfile
+refresh git://github.com/claco/jasmine.vim.git                  jasmine.vim
