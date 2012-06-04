@@ -4,12 +4,10 @@ refresh() {
   local url="$1"
   local dir="$2"
 
-  rm -rf $dir
-  git clone $url $dir --depth=1
-  rm -rf $dir/.git
-
-  if [ -f "$dir/.gitignore" ]; then
-    rm "$dir/.gitignore"
+  if [ -d $dir ]; then
+    cd $dir && git pull && cd ..
+  else
+    git clone $url $dir --depth=1
   fi
 }
 
@@ -41,3 +39,5 @@ refresh git://github.com/int3/vim-extradite.git                 vim-extradite
 refresh git://github.com/vim-ruby/vim-ruby.git                  vim-ruby
 refresh git://github.com/tobiassvn/vim-gemfile.git              vim-gemfile
 refresh git://github.com/claco/jasmine.vim.git                  jasmine.vim
+refresh git://github.com/othree/html5.vim.git                   html5.vim
+refresh git://github.com/hail2u/vim-css3-syntax.git             css3-syntax
