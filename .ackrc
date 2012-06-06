@@ -1,3 +1,4 @@
 --type-set=coffee=.coffee
 --type-add=html=.tpl
+--type-add=css=.scss
 --ignore-dir=coverage
