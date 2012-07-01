@@ -13,6 +13,7 @@
 !.dir_colors
 !.gemrc
 !.gitignore
+!.git-completion
 !.git-template
 !.rvmrc
 !.screenrc
@@ -21,6 +22,7 @@
 !.vimrc
 !.vim/backup/.empty
 !.vim/bundle/refresh
+!.zshrc
 !README
 
 # But do ignore this!
