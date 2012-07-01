@@ -1,7 +1,37 @@
-filetype off
-silent! call pathogen#infect()
-silent! call pathogen#helptags()
-filetype plugin indent on
+set nocompatible               " be iMproved
+filetype off                   " required!
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required!
+Bundle 'gmarik/vundle'
+
+Bundle 'bronson/vim-trailing-whitespace'
+Bundle 'ervandew/supertab'
+
+Bundle 'tpope/vim-cucumber'
+Bundle 'tpope/vim-git'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-pathogen'
+Bundle 'tpope/vim-ragtag'
+Bundle 'tpope/vim-repeat'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-haml'
+Bundle 'tpope/vim-rails'
+
+Bundle 'scrooloose/nerdtree'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'intuited/lh-vim-lib'
+Bundle 'ervandew/relative'
+Bundle 'timcharper/textile.vim'
+Bundle 'int3/vim-extradite'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'tobiassvn/vim-gemfile'
+Bundle 'claco/jasmine.vim'
+Bundle 'othree/html5.vim'
+Bundle 'hail2u/vim-css3-syntax'
 
 set nocp                        "vim no-compativility mode
 set expandtab

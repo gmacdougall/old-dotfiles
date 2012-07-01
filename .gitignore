@@ -15,10 +15,12 @@
 !.gitignore
 !.git-completion
 !.git-template
+!.oh-my-zsh
 !.rvmrc
 !.screenrc
 !.submodules/
 !.vim/
+!.vim/bundle/vundle
 !.vimrc
 !.vim/backup/.empty
 !.vim/bundle/refresh
