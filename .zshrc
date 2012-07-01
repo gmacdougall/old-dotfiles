@@ -34,11 +34,6 @@ plugins=(bundler cap command-not-found gem rails3 ruby rvm screen git)
 source $HOME/.git-completion/git-prompt.sh
 source $ZSH/oh-my-zsh.sh
 
-export GIT_PS1_SHOWDIRTYSTATE=true
-export GIT_PS1_SHOWSTASHSTATE=true
-export GIT_PS1_SHOWUNTRACKEDFILES=true
-export GIT_PS1_SHOWUPSTREAM=verbose
-
 # Customize to your needs...
 PROMPT='%{$fg_bold[red]%}➜ %{$fg_bold[green]%}%p %{$fg[cyan]%}%~%{$fg_bold[blue]%}/%{$reset_color%}%{$fg[yellow]%}$(__git_ps1 "[%s]")%{$reset_color%}> '
 RPROMPT='%{$fg[magenta]%}%n%{$reset_color%}@%{$fg[yellow]%}%m%{$reset_color%} [%*]'
