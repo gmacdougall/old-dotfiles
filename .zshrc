@@ -35,5 +35,6 @@ source $HOME/.git-completion/git-prompt.sh
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+alias ack="ack-grep"
 PROMPT='%{$fg_bold[red]%}➜ %{$fg_bold[green]%}%p %{$fg[cyan]%}%~%{$fg_bold[blue]%}/%{$reset_color%}%{$fg[yellow]%}${$(__git_ps1 "[%s]")/\%/%%}%{$reset_color%}> '
 RPROMPT='%{$fg[magenta]%}%n%{$reset_color%}@%{$fg[yellow]%}%m%{$reset_color%} [%*]'
