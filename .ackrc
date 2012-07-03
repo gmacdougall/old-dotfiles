@@ -2,3 +2,4 @@
 --type-add=html=.tpl
 --type-add=css=.scss
 --ignore-dir=coverage
+--ignore-dir=tmp
