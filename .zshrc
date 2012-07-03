@@ -39,5 +39,11 @@ alias ack="ack-grep"
 PROMPT='%{$fg_bold[red]%}➜ %{$fg_bold[green]%}%p %{$fg[cyan]%}%~%{$fg_bold[blue]%}/%{$reset_color%}%{$fg[yellow]%}${$(__git_ps1 "[%s]")/\%/%%}%{$reset_color%}> '
 RPROMPT='%{$fg[magenta]%}%n%{$reset_color%}@%{$fg[yellow]%}%m%{$reset_color%} [%*]'
 
+
+GIT_PS1_SHOWDIRTYSTATE=true
+GIT_PS1_SHOWSTASHSTATE=true
+GIT_PS1_SHOWUNTRACKEDFILES=true
+GIT_PS1_SHOWUPSTREAM=verbose
+
 EDITOR='vim'
 VISUAL='vim'
