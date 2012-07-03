@@ -13,6 +13,7 @@
 !.dir_colors
 !.gemrc
 !.gitignore
+!.gitignore_global
 !.git-completion
 !.git-template
 !.oh-my-zsh
