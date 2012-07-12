@@ -9,6 +9,7 @@ ZSH_THEME="robbyrussell"
 
 # Example aliases
 alias zshconfig="vim ~/.zshrc"
+alias rspec="nocorrect bundle exec rspec"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Set to this to use case-sensitive completion
