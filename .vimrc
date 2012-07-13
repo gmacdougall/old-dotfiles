@@ -59,6 +59,7 @@ set statusline +=%4c\ %*        "column number
 set backupdir=~/.vim/backup/
 set directory=~/.vim/backup/
 set nofoldenable
+filetype plugin indent on
 
 colo vibrantink
 compiler maven2
