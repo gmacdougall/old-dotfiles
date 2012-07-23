@@ -49,3 +49,5 @@ GIT_PS1_SHOWUPSTREAM=verbose
 
 EDITOR='vim'
 VISUAL='vim'
+
+compctl -g '~/.teamocil/*(:t:r)' teamocil
