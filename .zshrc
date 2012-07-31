@@ -30,7 +30,7 @@ CASE_SENSITIVE="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(bundler cap command-not-found gem rails3 ruby rvm screen git)
+plugins=(bundler cap command-not-found gem rails3 ruby rvm screen git git-flow)
 
 source $HOME/.git-completion/git-prompt.sh
 source $ZSH/oh-my-zsh.sh
