@@ -1,5 +1,6 @@
 --type-set=coffee=.coffee
 --type-add=html=.tpl
 --type-add=css=.scss
+--type-add=css=.sass
 --ignore-dir=coverage
 --ignore-dir=tmp
