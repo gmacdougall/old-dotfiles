@@ -51,3 +51,6 @@ EDITOR='vim'
 VISUAL='vim'
 
 compctl -g '~/.teamocil/*(:t:r)' teamocil
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
